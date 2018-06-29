@@ -15,9 +15,11 @@ Import-Package:
  javax.jmdns,
  org.eclipse.jdt.annotation;resolution:=optional,
  org.eclipse.smarthome.config.discovery,
+ org.eclipse.smarthome.core.net,
  org.eclipse.smarthome.core.thing,
  org.eclipse.smarthome.io.transport.mdns,
  org.eclipse.smarthome.io.transport.mdns.discovery,
  org.osgi.framework,
  org.slf4j
 Service-Component: OSGI-INF/*.xml
+Automatic-Module-Name: org.eclipse.smarthome.io.transport.mdns

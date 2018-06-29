@@ -20,6 +20,7 @@ Import-Package:
  org.eclipse.smarthome.core.items,
  org.eclipse.smarthome.core.library.items,
  org.eclipse.smarthome.core.library.types,
+ org.eclipse.smarthome.core.library.unit,
  org.eclipse.smarthome.core.storage,
  org.eclipse.smarthome.core.thing,
  org.eclipse.smarthome.core.thing.binding,
@@ -31,6 +32,7 @@ Import-Package:
  org.hamcrest;core=split,
  org.hamcrest.collection,
  org.hamcrest.core,
+ org.hamcrest.number,
  org.junit;version="4.0.0",
  org.junit.rules,
  org.mockito,
@@ -40,3 +42,4 @@ Import-Package:
  org.osgi.framework,
  org.osgi.service.cm,
  org.osgi.service.component
+Automatic-Module-Name: org.eclipse.smarthome.core.thing.test

@@ -10,6 +10,7 @@ Fragment-Host: org.eclipse.smarthome.io.rest.sitemap
 Import-Package: 
  org.eclipse.jdt.annotation;resolution:=optional,
  org.eclipse.smarthome.core.library.types,
+ org.eclipse.smarthome.test.java,
  org.hamcrest;core=split,
  org.hamcrest.collection,
  org.hamcrest.core,
@@ -17,3 +18,4 @@ Import-Package:
  org.mockito,
  org.mockito.stubbing,
  org.slf4j
+Automatic-Module-Name: org.eclipse.smarthome.io.rest.sitemap.test

@@ -15,7 +15,11 @@ Import-Package:
  net.minidev.json.reader,
  net.minidev.json.writer,
  org.eclipse.jdt.annotation;resolution:=optional,
+ org.eclipse.smarthome.config.core,
+ org.eclipse.smarthome.core.library.types,
+ org.eclipse.smarthome.core.thing.profiles,
  org.eclipse.smarthome.core.transform,
  org.eclipse.smarthome.core.types,
  org.slf4j
 Service-Component: OSGI-INF/*.xml
+Automatic-Module-Name: org.eclipse.smarthome.transform.jsonpath

@@ -1,6 +1,5 @@
 Manifest-Version: 1.0
-Bundle-Activator: org.eclipse.smarthome.automation.internal.sample.json.
- handler.Activator
+Bundle-Activator: org.eclipse.smarthome.automation.internal.sample.json.internal.handler.Activator
 Bundle-ManifestVersion: 2
 Bundle-Name: Automation Sample JSON
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
@@ -22,3 +21,4 @@ Import-Package:
  org.osgi.service.event,
  org.osgi.util.tracker,
  org.slf4j
+Automatic-Module-Name: org.eclipse.smarthome.automation.sample.extension.json
